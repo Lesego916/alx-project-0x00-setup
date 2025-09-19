@@ -15,11 +15,13 @@ const Landing: React.FC = () => {
         <Pill title="TypeScript" />
       </div>
 
-      <div className="mt-6 flex gap-2">
-        <Button title="Small Button" styles="rounded-sm" />
-        <Button title="Medium Button" styles="rounded-md" />
-        <Button title="Large Button" styles="rounded-full" />
-      </div>
+      <div className="space-x-4 p-6">
+      <Button styles="rounded-sm">Small Rounded</Button>
+      <Button styles="rounded-md">Medium Rounded</Button>
+      <Button styles="rounded-full">Fully Rounded</Button>
+      {/* Keep your existing rounded-lg button if you already had it */}
+      <Button styles="rounded-lg">Large Rounded</Button>
+    </div>
     </div>
   );
 };

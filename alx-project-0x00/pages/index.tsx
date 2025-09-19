@@ -1,9 +1,9 @@
 import React from "react";
 
-const Home = () => {
+const Home: React.FC = () => {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen">
-      <h1 className="text-3xl font-bold">Hello Next.js!</h1>
+    <div>
+      <h1>Airbnb Application Clone system</h1>
     </div>
   );
 };
